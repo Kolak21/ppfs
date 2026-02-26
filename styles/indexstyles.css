@@ -1,0 +1,14 @@
+/* Pinkpantheress Fan Site */
+/* Author: Giovanni Aubin */
+
+/* Reset Styles */
+h1, h2, h3, p, div {
+    padding: 0;
+}
+
+/*Global Styles*/
+header{
+    text-align: center;
+}
+
+/* Main Content */
