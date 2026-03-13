@@ -18,23 +18,28 @@ header{
 /* navbar styling */
 a,a:active, a:link, a:visited{ 
     color:rgb(9, 97, 173);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'cursive';
     font-size: 1.6em;
+    font-weight: bold;
 }
 
-ul li {
-    float: left;
+ nav.primary p{
+    /* makes the navbar horizontal!!! */
+    display: inline-block; 
+    margin-left: 1em;
 }
 
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+a:hover{
+    color:rgb(8, 0, 255);
 }
 
-/* Header heading one styling to be distinct from the others */
+nav.primary {
+    text-align: center;
+    background-color: aliceblue;
+    border-bottom: 2px solid palevioletred;
+}
+
+/* Main Content*/
 header h1 {
     font-family:'cursive';
     border-bottom: 2px solid red;
@@ -42,12 +47,10 @@ header h1 {
     color: aliceblue;
 }
 
-a:hover{
-    color:rgb(8, 0, 255);
-}
+
 
 html{
-    background-color: paleturquoise;
+    background-color: rgb(2, 10, 84);
 }
 
 
