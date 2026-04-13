@@ -6,21 +6,33 @@ h1, h2, h3, p, div, a{
     padding: 0;
     margin: 0;
     border: 0;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
-
-/*Global Styles*/
-header{
-    text-align: center;
+html{
+    background-color: rgb(2, 10, 84);
 }
 
-/* navbar styling */
-a,a:active, a:link, a:visited{ 
+/*Primary Navbar Styles*/
+
+/* Styles for anchor tags */
+a, a:active, a:visited{ 
     color:rgb(9, 97, 173);
-    font-family:'cursive';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.6em;
     font-weight: bold;
+}
+
+a:hover{
+    color:rgb(8, 0, 255);
+}
+
+/* Styles for the primary navigation bar */
+nav.primary {
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-image: url('../images/navbarpattern.jpg');
+    float: top;
 }
 
  nav.primary p{
@@ -29,24 +41,20 @@ a,a:active, a:link, a:visited{
     margin-left: 1em;
 }
 
-a:hover{
-    color:rgb(8, 0, 255);
-}
-
-nav.primary {
-    text-align: center;
-    border-bottom: 2px solid rgb(255, 255, 255);
-}
-
-/* Main Content*/
+/* H1 Styles */
 header h1 {
-    font-family:'cursive';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-bottom: 2px solid rgb(255, 255, 255);
     color: aliceblue;
+    background-image: url('../images/header1pattern.jpg');
+    float: top;
+}
+
+
+/*Global Styles*/
+header{
+    text-align: center;
 }
 
 
 
-html{
-    background-color: rgb(2, 10, 84);
-}
