@@ -9,22 +9,19 @@ h1, h2, h3, p, div, a{
     text-decoration: none;
 }
 
-html{
-    background-color: rgb(2, 10, 84);
-}
 
 /*Primary Navbar Styles*/
 
 /* Styles for anchor tags */
 a, a:active, a:visited{ 
-    color:rgb(9, 97, 173);
+    color: rgb(219, 0, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.6em;
     font-weight: bold;
 }
 
 a:hover{
-    color:rgb(8, 0, 255);
+    color:rgb(255, 255, 255);
 }
 
 /* Styles for the primary navigation bar */
@@ -76,19 +73,29 @@ div {
 }
 
 h2 {
-    color: #ff69b4; 
+    color: #eb8fbd; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 10px;
 }
 
 div p {
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
     margin-bottom: 20px;
 }
 
+ol li {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
 /* for links in the paragraph */
-div p a {
+div  a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eb8fbd;
     font-size: 1em;
     text-decoration: underline;
 }
@@ -111,6 +118,11 @@ footer ul li a {
     color: aliceblue;
     font-size: 1.2em;
 }
+
+html{
+    background-color: rgb(65, 1, 40);
+}
+
 
 
 
